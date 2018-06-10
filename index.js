@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const NewsAPI = require('newsapi');
-const newsapi = new NewsAPI('1d98f267f4b142edaeac92956e98838c');
+const newsapi = new NewsAPI('YOUR_NEWS_API_HERE');
 const server = express();
 
 server.use(bodyParser.urlencoded({
